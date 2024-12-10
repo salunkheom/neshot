@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design for mobile devices -->
+    <title></title> <!-- Title of the document (currently empty) -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to custom CSS file for additional styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap CSS for responsive design -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!-- Swiper CSS for creating sliders -->
+
+    <!-- Option 1: Include Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> <!-- Bootstrap Icons for icons in the UI -->
+</head>
+<body class="text-white" style="font-weight: bold;"> <!-- Body with white text and bold font -->
+
+    <!-- Navigation Bar -->
+    <div class="nav ps-2 d-flex justify-content-between text-white">
+        <div class="nav-img d-flex justify-content-center align-items-center">
+            <img src="images/main-logo.png"> <!-- Logo image -->
+            <h6 class="mt-2 ms-1 text-white">NESHOT</h6> <!-- Brand name -->
+        </div>
+        <div class="nav-slide">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-sticky"> <!-- Bootstrap navbar -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-align-justify navbar-toggler-icon"></span> <!-- Hamburger icon for mobile view -->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav"> <!-- Collapsible navbar content -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link scroll-active text-white" href="#">Home</a> <!-- Home link -->
+                        </li>
+                        <li class="nav-item text-white">
+                            <a class="nav-link scroll text-white" href="#">Features</a> <!-- Features link -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll text-white" href="#">Screenshots</a> <!-- Screenshots link -->
+                        </li>
+                        <li class="nav-item text-white">
+                            <a class="nav-link scroll text-white" href="#">Pricing</a> <!-- Pricing link -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll text-white" href="#">Contacts</a> <!-- Contacts link -->
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="body-container p-5 d-flex justify-content-center align-items-center flex-column">
+        <!-- Middle of home section -->
+        <div class="mid-container text-white p-2 d-flex">
+            <div class="mid-content p-2">
+                <h1 class="fw-bolder" id="Present">Present your app <br> with ONESHOT</h1> <!-- Main heading -->
+                <p class="fw-bold text-align-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae aspernatur repellendus placeat deleniti consequuntur maxime rem voluptate dolorem hic, animi sapiente blanditiis, iste suscipit amet?
+                </p>
+                <div class="content-btn d-flex">
+                    <button class="btn btn-warning m-2 fw-bold">Play store</button> <!-- Button for Play Store -->
+                    <button class="btn btn-warning m-2 fw-bold">App store</button> <!-- Button for App Store -->
+                </div>
+            </div>
+            <div class="mid-img pt-5">
+                <img src="images/content-pho.png" alt=""> <!-- Image for the mid section -->
+            </div>
+        </div>
+
+        <!-- Followers Section -->
+        <div class="followers text-white d-flex justify-content-between p-5 flex-wrap">
+            <div class="f1 m-3 d-flex justify-content-center align-items-center flex-column">
+                <h1>10M</h1> <!-- Number of users -->
+                <h4>US USERS</h4> <!-- Label for the number of users -->
+            </div>
+            <div class="f2 d-flex m-3 justify-content-around align-items-center flex-column">
+                <h1>20K</h1> <!-- Number of downloads -->
+                <h4>DOWNLOAD</h4> <!-- Label for downloads -->
+            </div>
+            <div class="f3 d-flex m-3 justify-content-around align-items-center flex-column">
+                <h1>26M</h1> <!-- Number of customers -->
+                <h4>CUSTOMER</h4> <!-- Label for customers -->
+            </div>
+            <div class="f4 d-flex m-3 justify-content-center align-items-center flex-column">
+                <h1>10K</h1> <!-- Number of developers -->
+                <h4>DEVELOPER</h4> <!-- Label for developers -->
+            </div>
+        </div>
+
+        <!-- Home Reason Section -->
+        <div class="home-reason rounded pt-5">
+            <div class="home-one d-flex flex-column align-items-center">
+                <h1>Why do every people</h1> <!-- Heading for reasons -->
+                <h4 class="td-underline text-white">love App-mobile?</h4> <!-- Subheading -->
+                <hr> <!-- Horizontal line -->
+                <p class="fw-bolder">Lorem ipsum dolor sit amet consectetur<br>pelit. Dicta, eligendi.</p> <!-- Description -->
+            </div>
+
+            <!-- Home Display Section -->
+            <div class="home-dis rounded d-flex flex-wrap justify-content-around p-5">
+                <div class="bos">
+                    <div class="dis1 m-2 d-flex flex-column align-items-center">
+                        <img src="images/heart-logo.png"> <!-- Icon for clean design -->
+                        <h6 class="">CLEAN DESIGN</h6> <!-- Label for clean design -->
+                        <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, ipsam?</p> <!-- Description -->
+                    </div>
+                </div>
+                <div class="dis2 m-2 d-flex flex-column align-items-center">
+                    <img src="images/lock-logo.png"> <!-- Icon for secure data -->
+                    <h6>SECURE DATA</h6> <!-- Label for secure data -->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, ipsam?</p> <!-- Description -->
+                </div>
+                <div class="dis3 m-2 d-flex flex-column align-items-center">
+                    <img src="images/retina-logo.webp"> <!-- Icon for retina ready -->
+                    <h6>RETINA READY</h6> <!-- Label for retina ready -->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, ipsam?</p> <!-- Description -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features m-5 d-flex justify-content-center align-items-center">
+            <div class="features-left">
+                <div class="features-head">
+                    <h1>Our special features</h1> <!-- Heading for features -->
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet laudantium, sint quidem eum deleniti, ullam mi!</p> <!-- Description -->
+                </div>
+                <div class="box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-sm-12 mt-2 ms-2 me-2" id="box1">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6 class="fw-bold">Beautiful Design</h6> <!-- Feature title -->
+                                    <i class="bi bi-tree-fill d-flex justify-content-center p-2" id="house-icon"></i> <!-- Icon for beautiful design -->
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem!</p> <!-- Description -->
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 mt-2 ms-2 me-2" id="box2">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6 class="fw-bold">Pure and Simple</h6> <!-- Feature title -->
+                                    <i class="bi bi-award-fill d-flex justify-content-center p-2" id="house-icon"></i> <!-- Icon for pure and simple -->
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem!</p> <!-- Description -->
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-5 mt-2 ms-2" id="box3">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6 class="fw-bold">Color Schemes</h6> <!-- Feature title -->
+                                    <i class="bi bi-house-fill d-flex justify-content-center p-2" id="house-icon"></i> <!-- Icon for color schemes -->
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem!</p> <!-- Description -->
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-sm-12 mt-2 ms-2 me-2" id="box4">
+                                <div class="box-head d-flex justify-content-between">
+                                    <h6 class="fw-bold">Wow Animations</h6> <!-- Feature title -->
+                                    <i class="bi bi-bell-fill d-flex justify-content-center p-2" id="house-icon"></i> <!-- Icon for animations -->
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem!</p> <!-- Description -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Right Section -->
+            <div class="features-right">
+                <img src="images/box-img.png" alt="box-img"> <!-- Image for features section -->
+            </div>
+        </div>
+
+        <!-- Screenshots Section -->
+        <div class="screenshots d-flex justify-content-center align-items-center flex-column">
+            <div class="container text-center">
+                <h2 class="text-center fw-bold pt-5">App Screenshots</h2> <!-- Heading for screenshots -->
+                <h6 class="mr text-center">.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla, dolorem vel mollitia sapiente quo.</p> <!-- Description -->
+
+                <!-- Swiper for screenshots -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/s4.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s2.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s3.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s4.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s5.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s4.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s2.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s3.jfif" alt=""></div> <!-- Screenshot image -->
+                        <div class="swiper-slide"><img src="images/s4.jfif" alt=""></div> <!-- Screenshot image -->
+                    </div>
+                    <div class="swiper-pagination"></div> <!-- Pagination for swiper -->
+                </div>
+
+                <div class="p p-5 text-center">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, ea. Nemo sapiente perferendis officia at ipsum nihil accusantium dolorem sequi ipsa delectus quisquam reprehenderit dolores voluptatem distinctio, fugit natus ipsam? <!-- Description -->
+                    <hr> <!-- Horizontal line -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing Section -->
+        <div class="pricing d-flex justify-content-center align-items-center flex-column">
+            <div class="container text-center">
+                <h2 class="text-center fw-bold pt-5">Approdable packages</h2> <!-- Heading for pricing -->
+                <h6 class="mr text-center text-dark">mr 360 om</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla, dolorem vel mollitia sapiente quo.</p> <!-- Description -->
+            </div>
+
+            <div class="pricing-chart  d-flex justify-content-between">
+                <div class="chart-1 m-5 p-3 d-flex justify-content-center align-items-center flex-column">
+                    <div id="lab"></div>
+                    <h4>PREMIUM</h4> <!-- Premium package title -->
+                    <img src="images/s2.jfif" alt="">
+                    <div class="mid-chart d-flex fw-bold">
+                        <h1 class="me-1">$</h1>
+                        <h1>35</h1> <!-- Price -->
+                    </div>
+                    <h6>5GB Linux Web Space</h6> <h6>5 MySQL Database</h6> <!-- Database information -->
+                    <h6>24/7</h6> <!-- Support information -->
+                    <h6>Daily Backups</h6> <!-- Backup information -->
+                    <button class="btn btn-warning fw-bold">Learn More</button> <!-- Button to learn more about the package -->
+                </div>
+
+                <div class="chart-2 m-5 p-3 d-flex justify-content-center align-items-center flex-column">
+                    <div id="lab"></div>
+                    <h4>BASIC</h4> <!-- Basic package title -->
+                    <img src="images/s2.jfif" alt="">
+                    <div class="mid-chart d-flex fw-bold">
+                        <h1 class="me-1">$</h1>
+                        <h1>35</h1> <!-- Price -->
+                    </div>
+                    <h6>5GB Linux Web Space</h6> <!-- Database information -->
+                    <h6>5 MySQL Database</h6> <!-- Database information -->
+                    <h6>24/7</h6> <!-- Support information -->
+                    <h6>Daily Backups</h6> <!-- Backup information -->
+                    <button class="btn btn-warning fw-bold">Learn More</button> <!-- Button to learn more about the package -->
+                </div>
+
+                <div class="chart-3 p-3 m-5 d-flex justify-content-center align-items-center flex-column">
+                    <h4>ADDICT</h4> <!-- Addict package title -->
+                    <img src="images/s2.jfif" alt="">
+                    <div class="mid-chart d-flex fw-bold">
+                        <h1 class="me-1">$</h1>
+                        <h1>35</h1> <!-- Price -->
+                    </div>
+                    <h6>5GB Linux Web Space</h6> <!-- Database information -->
+                    <h6>5 MySQL Database</h6> <!-- Database information -->
+                    <h6>24/7</h6> <!-- Support information -->
+                    <h6>Daily Backups</h6> <!-- Backup information -->
+                    <button class="btn btn-warning fw-bold">Learn More</button> <!-- Button to learn more about the package -->
+                </div>
+
+                <div class="chart-4 p-3 m-5 d-flex justify-content-center align-items-center flex-column">
+                    <h4>BUSINESS</h4> <!-- Business package title -->
+                    <img src="images/s2.jfif" alt="">
+                    <div class="mid-chart d-flex justify-content-center fw-bold">
+                        <h1 class="me-1">$</h1>
+                        <h1>35</h1> <!-- Price -->
+                    </div>
+                    <h6>5GB Linux Web Space</h6> <!-- Database information -->
+                    <h6>5 MySQL Database</h6> <!-- Database information -->
+                    <h6>24/7</h6> <!-- Support information -->
+                    <h6>Daily Backups</h6> <!-- Backup information -->
+                    <button class="btn btn-warning fw-bold">Learn More</button> <!-- Button to learn more about the package -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact d-flex flex-column rounded">
+            <div class="container d-flex justify-content-between align-items-center flex-column rounded">
+                <h5 class="text-primary">LET'S START A CONVERSATION!</h5> <!-- Call to action -->
+                <h1>Contact Us</h1> <!-- Contact section heading -->
+                <div class="h d-flex justify-content-start p-3">
+                    <h2 class="">Contact info</h2> <!-- Contact info heading -->
+                </div>
+                <div class="info d-flex justify-content-around">
+                    <div class="info-left d-flex justify-content-center">
+                        <div class="i m-2 d-flex flex-column">
+                            <i class="bi bi-geo-alt-fill p-2"></i> <!-- Icon for location -->
+                            <i class="bi bi-envelope-fill p-2"></i> <!-- Icon for email -->
+                            <i class="bi bi-telephone-fill p-2"></i> <!-- Icon for phone -->
+                        </div>
+                        <div class="word m-2 p-2 d-flex flex-column">
+                            <p>Lorem karandwadi</p> <!-- Address -->
+                            <p>mr360@gmail.com</p> <!-- Email -->
+                            <p>3604567890</p> <!-- Phone number -->
+                        </div>
+                    </div>
+                    <div class="info-right d-flex align-items-center flex-column text-white">
+                        <form action="">
+                            <input type="text" value="Your name" class ="form-control text-white bg-transparent m-2"> <!-- Input for name -->
+                            <input type="email" class="form-control text-white bg-transparent m-2" value="Email address"> <!-- Input for email -->
+                            <input type="text" class="form-control text-white bg-transparent m-2" value="Enter your message"> <!-- Input for message -->
+                        </form>
+                    </div>
+                </div>
+                <input type="button" value="Send Message" id="btn" class="form-control text-dark fw-bold bg-warning m-2"> <!-- Button to send message -->
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="fot d-flex justify-content-between align-items-center mt-5">
+            <p>Copyright @2024 ONESHOT All Rights Reserved</p> <!-- Copyright notice -->
+            <p>- Designed by OM360_design</p> <!-- Designer credit -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!-- Swiper JS for slider functionality -->
+    <script src="script.js"></script> <!-- Link to custom JavaScript file -->
+</body>
+</html>

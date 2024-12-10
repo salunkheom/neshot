@@ -1,0 +1,589 @@
+body{
+ 
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+font-weight: bold;   }
+
+p{
+    font-weight: bolder;
+}
+.nav-img img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+.mid-img{
+    transform: rotate(-355deg);
+}
+.mid-img img{
+    width: 40vw;
+    height: 60vh;
+margin-top: 50px;
+    animation:float 3s linear infinite;
+}
+@keyframes float{
+0%,100%{
+    transform:translateY(0rem);
+}
+50%{
+    transform:translateY(-3rem);
+}
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color:#3243b9;
+    position:fixed;
+    width:100%;
+   color: aliceblue;
+  height: 50px;
+    
+}
+
+.body-container p,h5,h1,h6{
+    text-align:center;
+}
+
+
+.mid-content{
+    margin:50px;
+}
+.mid-container p{
+text-align:justify;
+     margin-top:45px
+}
+.mid-container h1{
+text-align:justify;
+     margin-top:45px
+}
+.home-reason h4{
+    color: rgb(0, 0, 0);
+    text-decoration: underline black;
+}
+
+
+.home-dis p{
+    text-align: center;
+    padding:5px;
+}
+.home-dis img{
+    width: 30%;
+    height: 30%;
+}
+.f1,f2,f3,f4{
+width: 100px;}
+
+.dis1,.dis2,.dis3 {
+   gap:  20px;
+}
+
+.dis1{
+    border-bottom: rgb(199, 194, 194) solid 5px;
+    border-right: rgb(199, 194, 194) solid 5px;
+    border-left:solid 1px #c3adad;
+     border-top:solid 1px #c3adad;
+    border-radius: 10px;
+   padding: 15px;
+   
+}
+
+
+.dis2{
+    border-bottom: rgb(199, 194, 194) solid 5px;
+    border-right: rgb(199, 194, 194) solid 5px;
+  border-left:solid 1px #c3adad;
+     border-top:solid 1px #c3adad;
+    border-radius: 10px;
+   padding: 15px;
+   
+}
+.dis3{
+    border-bottom: rgb(199, 194, 194) solid 5px;
+    border-right: rgb(199, 194, 194) solid 5px;
+  border-left:solid 1px #c3adad;
+     border-top:solid 1px #c3adad;
+    border-radius: 10px;
+   padding: 15px;
+   
+}   
+.screenshots{
+    border:solid 1px #c3adad;
+
+}
+/* ---features */
+#box1,#box2,#box3,#box4{
+    border-radius: 10px;
+    padding: 15px;
+    border:solid 1px #c3adad;
+}
+.features-right img{
+    width: 35vw;
+    height: 40vh;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.icons i{
+    margin-bottom:px;
+}
+#house-icon{
+    border: #3243b9 2px solid;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+/* ======screenshots==== */
+.contact{
+    border:solid 1px #c3adad;
+
+}
+
+/* 
+   html,
+    body {
+    
+    }
+
+  
+
+    /* /* .swiper {
+      width: 100%;
+      height: 50vh;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      
+      width:100% ;
+      height: 45vh;
+    } */  
+
+
+    .swiper {
+        width: 80vw;
+        height: 150px;
+        overflow: hidden;
+      }
+  
+      .swiper-slide {
+        width: 100vw;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+   
+    .pricing{
+        border-radius: 15px;
+    }
+    .pricing-chart img{
+        width: 35px;
+        height: 25px;
+    }
+    .pricing-chart{
+        margin: 15px;
+    }
+    .chart-1 p{
+       text-align: center;
+    }
+
+    .pricing-chart :hover{ 
+      
+       border: rgb(0, 0, 0) solid 2px;
+     border-radius: 25px;
+    }
+    .pricing-chart .chart-1  :hover{
+       
+        border: none;
+     }
+     .pricing-chart .chart-2  :hover{
+      
+        border: none;
+     }
+     .pricing-chart .chart-3  :hover{
+      
+        border: none;
+     }
+     .pricing-chart .chart-4  :hover{
+      
+        border: none;
+     }
+
+/* ===contavct=== */
+.info{
+    width: 100%;
+}
+.h{
+    width:100%;
+    margin-left:15vw;
+}
+.contact .container{width: 75vw;
+ 
+    border: #28282d 2px solid;
+    
+}
+#btn{
+    width: 15vw;
+}
+
+/* media query */
+@media screen and (width< 480px) {
+.mid-img img{
+    width: 55vw;
+    height: 60vh;
+}
+    .mid-container{
+        display:flex;
+        flex-direction:column-reverse;
+       
+        align-items:center;
+        
+    }
+   .mid-content{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       text-align:justify;
+        margin:10px;
+   }
+    .dis1,.dis2,.dis3 {
+   gap:  5px;
+}
+/* ---features */
+.features{
+    display: flex;
+   flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.features-head h1{
+    display: flex;
+    justify-content: center;
+}
+#box1,#box2,#box3,#box4{
+  text-align: justify;
+}
+.pricing-chart{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display:flex;
+    flex-direction:column;
+}
+.fot{
+    flex-direction:column;
+}
+ } 
+
+ @media screen and (width> 480px){
+    .dis1,.dis2,.dis3{
+    width: 250px;
+        height:250px;
+        gap:  10px;  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+
+background-image: url(images/bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;  
+font-weight: bold; }
+
+p{ font-weight: bolder; } .nav-img img{ width: 25px; height: 25px; border-radius: 50%;
+
+} .mid-img{ transform: rotate(-355deg); } .mid-img img{ width: 40vw; height: 60vh; margin-top: 50px; animation:float 3s linear infinite; } @keyframes float{ 0%,100%{ transform:translateY(0rem); } 50%{ transform:translateY(-3rem); } } .nav{ display: flex; justify-content: space-between;
+
+
+background-color:#3243b9;
+position:fixed;
+width:100%;
+color: aliceblue; height: 50px;
+
+}
+
+ .mid-content{ margin:50px; } .mid-container p{ text-align:justify; margin-top:45px } .mid-container h1{ text-align:justify; margin-top:45px } .home-reason h4{ color: rgb(0, 0, 0); text-decoration: underline black; }
+
+
+.home-dis p{ text-align: center; padding:5px; } .home-dis img{ width: 30%; height: 30%; } .f1,f2,f3,f4{ width: 100px;}
+
+.dis1,.dis2,.dis3 { gap: 20px; }
+
+.dis1{ border-bottom: rgb(199, 194, 194) solid 5px; border-right: rgb(199, 194, 194) solid 5px; border-left:solid 1px #c3adad; border-top:solid 1px #c3adad; border-radius: 10px; padding: 15px;
+
+}
+
+.dis2{ border-bottom: rgb(199, 194, 194) solid 5px; border-right: rgb(199, 194, 194) solid 5px; border-left:solid 1px #c3adad; border-top:solid 1px #c3adad; border-radius: 10px; padding: 15px;
+
+} .dis3{ border-bottom: rgb(199, 194, 194) solid 5px; border-right: rgb(199, 194, 194) solid 5px; border-left:solid 1px #c3adad; border-top:solid 1px #c3adad; border-radius: 10px; padding: 15px;
+
+}
+.screenshots{ border:solid 1px #c3adad;
+
+} /* ---features */ #box1,#box2,#box3,#box4{ border-radius: 10px; padding: 15px; border:solid 1px #c3adad; } .features-right img{ width: 35vw; height: 40vh; margin-top: 45px; margin-left: 20px; }
+
+.icons i{ margin-bottom:px; } #house-icon{ border: #3243b9 2px solid; border-bottom-left-radius: 10px; margin-bottom: 5px; width: 35px; height: 35px; }
+
+/* ======screenshots==== */ .contact{ border:solid 1px #c3adad;
+
+}
+
+
+
+ 
+
+
+.swiper {
+    width: 80vw;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    width: 100vw;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.pricing{
+    border-radius: 15px;
+}
+.pricing-chart img{
+    width: 35px;
+    height: 25px;
+}
+.pricing-chart{
+    margin: 15px;
+}
+.chart-1 p{
+   text-align: center;
+}
+
+.pricing-chart  :hover{ 
+  
+   border: rgb(142, 66, 66) solid 2px;
+ border-radius: 5px;
+}
+.pricing-chart .chart-1  :hover{
+   
+    border: none;
+ }
+ .pricing-chart .chart-2  :hover{
+  
+    border: none;
+ }
+ .pricing-chart .chart-3  :hover{
+  
+    border: none;
+ }
+ .pricing-chart .chart-4  :hover{
+  
+    border: none;
+ }
+/* ===contavct=== */ .info{ width: 100%; } .h{ width:100%; margin-left:15vw; }
+ .contact .container{width: 75vw;
+
+
+border: #28282d 2px solid;
+} #btn{ width: 15vw; }
+
+/* media query */ @media screen and (width< 480px) {
+     .mid-img img{ width: 55vw; height: 60vh; } 
+     .mid-container{ display:flex; 
+        flex-direction:column-reverse;}
+
+.mid-content{ display:flex; flex-direction:column;
+     align-items:center; text-align:justify; margin:10px;
+     } 
+     .dis1,.dis2,.dis3 { gap: 5px; }
+      /* ---features */ 
+      .features{ display: flex; flex-direction: column-reverse; flex-wrap: wrap; } 
+      .features-head h1{ display: flex; justify-content: center; } 
+      #box1,#box2,#box3,#box4{ text-align: justify; }
+       .pricing-chart{ display: flex; flex-direction: column; }
+        .info{ display:flex; flex-direction:column; }
+         .fot{ flex-direction:column; } }
+
+@media screen and (width> 480px){ .dis1,.dis2,.dis3{ width: 250px; height:250px; gap: 10px;
+} }
+
+/* Body styles */
+body {
+    /* Set background image, prevent repetition, and cover the entire area */
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    font-weight: bold; /* Sets the font weight to bold */
+}
+
+/* Paragraph styles */
+p {
+    font-weight: bolder; /* Makes the font weight bolder for paragraphs */
+}
+
+/* Navigation image styles */
+.nav-img img {
+    width: 25px; /* Sets the width of the navigation image */
+    height: 25px; /* Sets the height of the navigation image */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+/* Mid-image rotation */
+.mid-img {
+    transform: rotate(-355deg); /* Rotates the mid-image */
+}
+
+/* Mid-image styles */
+.mid-img img {
+    width: 40vw; /* Sets the width to 40% of the viewport width */
+    height: 60vh; /* Sets the height to 60% of the viewport height */
+    margin-top: 50px; /* Adds a top margin */
+    animation: float 3s linear infinite; /* Applies a floating animation */
+}
+
+/* Floating animation keyframes */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0rem); /* No vertical movement at the start and end */
+    }
+    50% {
+        transform: translateY(-3rem); /* Moves up by 3rem at the midpoint */
+    }
+}
+
+/* Navigation bar styles */
+.nav {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    background-color: #3243b9; /* Background color of the navbar */
+    position: fixed; /* Fixes the navbar at the top */
+    width: 100%; /* Full width */
+    color: aliceblue; /* Text color */
+    height: 50px; /* Height of the navbar */
+}
+
+/* Text alignment for various elements */
+.body-container p, h5, h1, h6 {
+    text-align: center; /* Centers text for these elements */
+}
+
+/* Shadow effect for the Present section (note: this property is incorrect) */
+
+
+/* Mid-container styles */
+
+
+/* Mid-content styles */
+.mid-content {
+    margin: 50px; /* Adds margin around mid-content */
+}
+
+/* Mid-container paragraph styles */
+.mid-container p {
+    text-align: justify; /* Justifies text */
+    margin-top: 45px; /* Adds top margin */
+}
+
+/* Mid-container heading styles */
+.mid-container h1 {
+    text-align: justify; /* Justifies heading text */
+    margin-top: 45px; /* Adds top margin */
+}
+
+/* Home reason heading styles */
+.home-reason h4 {
+    color: rgb(0, 0, 0); /* Sets text color */
+    text-decoration: underline black; /* Underlines text */
+}
+
+/* Home display styles */
+
+
+/* Home display paragraph styles */
+.home-dis p {
+    text-align: center; /* Centers text */
+    padding: 5px; /* Adds padding */
+}
+
+/* Home display image styles */
+.home-dis img {
+    width: 30%; /* Sets width to 30% */
+    height: 30%; /* Sets height to 30% */
+}
+
+/* Followers section styles */
+.f1, .f2, .f3, .f4 {
+    width: 100px; /* Sets width for follower stats */
+}
+
+/* Display styles for home display items */
+.dis1, .dis2, .dis3 {
+    gap: 20px; /* Adds gap between items */
+}
+
+/* Individual display item styles */
+.dis1, .dis2, .dis3 {
+    border-bottom: rgb(199, 194, 194) solid 5px; /* Bottom border */
+    border-right: rgb(199, 194, 194) solid 5px; /* Right border */
+    border-left: solid 1px #c3adad; /* Left border */
+    border-top: solid 1px #c3adad; /* Top border */
+    border-radius: 10px; /* Rounds corners */
+    padding: 15px; /* Adds padding */
+}
+
+/* Screenshots section styles */
+.screenshots {
+    border: solid 1px #c3adad; /* Adds a border around the screenshots section */
+}
+
+/* Features box styles */
+#box1, #box2, #box3, #box4 {
+    border-radius: 10px;}
+     /* R
