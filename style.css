@@ -1,11 +1,11 @@
 body{
- 
 background-image: url('./bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-font-weight: bold;   }
-
+ 
+font-weight: bold; 
+}
 p{
     font-weight: bolder;
 }
@@ -342,7 +342,9 @@ color: aliceblue; height: 50px;
  .mid-content{ margin:50px; } .mid-container p{ text-align:justify; margin-top:45px } .mid-container h1{ text-align:justify; margin-top:45px } .home-reason h4{ color: rgb(0, 0, 0); text-decoration: underline black; }
 
 
-.home-dis p{ text-align: center; padding:5px; } .home-dis img{ width: 30%; height: 30%; } .f1,f2,f3,f4{ width: 100px;}
+.home-dis p{ text-align: center; padding:5px; } .home-dis img{ width: 30%; height: 30%; }
+ .f1,.f2,.f3,.f4{ width: 100px;
+height: 10vh;}
 
 .dis1,.dis2,.dis3 { gap: 20px; }
 
@@ -560,7 +562,7 @@ p {
 }
 
 /* Followers section styles */
-.f1, .f2, .f3, .f4 {
+.f1,.f2, .f3, .f4 {
     width: 100px; /* Sets width for follower stats */
 }
 
